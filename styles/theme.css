@@ -1,0 +1,286 @@
+/*---------------------------------------------------------*/
+/*--Software Engineering Academy – Unattended coding test--*/
+/*---------Created by Hamza Tanveer on 20/02/2017.---------*/
+/*---------------------------------------------------------*/
+
+/******************/
+/**basic elements**/
+/******************/
+a{
+    color: #0070a5;
+}
+
+body{
+    background-color: #a51d4d !important;
+}
+
+.container{
+    font-family: SkyTextRegular;
+}
+
+/*****************/
+/**nav bar style**/
+/*****************/
+.navbar-inverse{
+    background-color: #eaeaea;
+    border-color: #eaeaea;
+    border-radius: 0px !important;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.navbar-menu{
+    float: right;
+}
+
+.top-holder{
+    display: flex;
+}
+
+.logo-holder{
+    float: left;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 6px;
+}
+
+.mood-slider-img{
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+.navbar-title{
+    font-family: SkyTextBold;
+    font-size: 52px;
+    color: #a51d4d;
+}
+
+.upload-content{
+
+    /*to hide file input box*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+/***************/
+/**mood-slider**/
+/***************/
+.mood-slider{
+    background-color: #a51d4d;
+    border-radius: 30px;
+
+    margin-top: 15px;
+
+    color: white !important;
+    padding: 20px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+
+    background: #cc9bad;
+    background: -moz-linear-gradient(top,  #cc9bad 0%, #cc4277 4%, #a51d4d 25%, #a51d4d 90%, #cc4277 100%);
+    background: -webkit-linear-gradient(top,  #cc9bad 0%,#cc4277 4%,#a51d4d 25%,#a51d4d 90%,#cc4277 100%);
+    background: linear-gradient(to bottom,  #cc9bad 0%,#cc4277 4%,#a51d4d 25%,#a51d4d 90%,#cc4277 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc9bad', endColorstr='#cc4277',GradientType=0 );
+}
+
+.mood-slider-div{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.mood-slider-range{
+    background-color: transparent;
+    width: 80% !important;
+}
+
+/****************/
+/**movie-holder**/
+/****************/
+.suggested-movies{
+    display: flex;
+}
+
+.movie-holder{
+    color: white !important;
+}
+
+.movie-image{
+    width: 200px;
+    height: 300px;
+    border: 10px solid white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.movie-image:hover{
+    z-index: 999;
+}
+
+.movie-title{
+    margin-top: 10px;
+    font-size: medium;
+    text-align: center;
+}
+
+/************************/
+/**Slider Customisation**/
+/************************/
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 12.5px 0;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5), 0px 0px 0.5px rgba(13, 13, 13, 0.5);
+    background: #ffffff;
+    border-radius: 10px;
+    border: 0px solid rgba(1, 1, 1, 0);
+}
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(13, 13, 13, 0.5);
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    height: 30px;
+    width: 12px;
+    border-radius: 12px;
+    background: #f4f4f4;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -12.5px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ffffff;
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5), 0px 0px 0.5px rgba(13, 13, 13, 0.5);
+    background: #ffffff;
+    border-radius: 10px;
+    border: 0px solid rgba(1, 1, 1, 0);
+}
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(13, 13, 13, 0.5);
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    height: 30px;
+    width: 12px;
+    border-radius: 12px;
+    background: #f4f4f4;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #e6e6e6;
+    border: 0px solid rgba(1, 1, 1, 0);
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5), 0px 0px 0.5px rgba(13, 13, 13, 0.5);
+}
+input[type=range]::-ms-fill-upper {
+    background: #ffffff;
+    border: 0px solid rgba(1, 1, 1, 0);
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5), 0px 0px 0.5px rgba(13, 13, 13, 0.5);
+}
+input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(13, 13, 13, 0.5);
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    height: 30px;
+    width: 12px;
+    border-radius: 12px;
+    background: #f4f4f4;
+    cursor: pointer;
+    height: 5px;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #ffffff;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #ffffff;
+}
+
+/********************/
+/**Sky-style-button**/
+/********************/
+
+.upload-content-button{
+    text-align: center;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 150px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    font: 16px/1em SkyTextRegular, Helvetica, Arial, sans-serif;
+    padding: 0 15px;
+    line-height: 2em;
+    position: relative;
+    z-index: 2;
+    border: none;
+    border-top: 1px solid #0073c5;
+    background-color: #0073c5;
+    color: #fff;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.upload-content-button:before{
+    -webkit-transition: opacity 0.25s;
+    -moz-transition: opacity 0.25s;
+    -o-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+    border-radius: 0 0 20px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    background: linear-gradient(top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 4%;
+    width: 93%;
+    height: 10px
+}

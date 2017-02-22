@@ -1,0 +1,112 @@
+<!--------------------------------------------------------->
+<!--Software Engineering Academy – Unattended coding test-->
+<!---------Created by Hamza Tanveer on 20/02/2017.--------->
+<!--------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Sky Cinema">
+    <meta name="author" content="Hamza Tanveer">
+    <link rel="icon" href="images/favicon/favicon.ico">
+
+    <title>Sky Cinema</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Sky fonts -->
+    <link href="styles/fonts/fonts.css" rel="stylesheet">
+
+    <!-- Custom CSS for styling this page -->
+    <link href="styles/theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="logo-holder col-sm-2 col-lg-2">
+            <img src="images/static/sky-logo-2016.svg" class="logo"/>
+        </div>
+        <div class="title-menu-holder col-sm-10 col-lg-10">
+            <div class="navbar-title col-sm-8 col-lg-8">
+                <img src="images/static/moodslider.png" class="mood-slider-img"/>
+            </div>
+            <div class="navbar-menu col-sm-2 col-lg-2">
+                <div class="upload-content-button">
+                    Upload Content
+                    <input type="file" class="upload-content" accept="text/xml" id="upload">
+                </div>
+            </div>
+        </div>
+    </div>
+</nav><!--/.navbar-->
+
+<div class="container">
+    <div class="mood-slider">
+        <div class="mood-slider-div agitated-calm">
+            <p class="col-sm-3 col-lg-3">Agitated</p>
+            <input class="mood-slider-range col-sm-6 col-lg-6" name="agitated-calm" type="range" min="0" max="1" step="0.5" data-orientation="vertical">
+            <p class="col-sm-3 col-lg-3">Calm</p>
+        </div>
+
+        <div class="mood-slider-div happy-sad">
+            <p class="col-sm-3 col-lg-3">Happy</p>
+            <input class="mood-slider-range col-sm-6 col-lg-6" name="happy-sad" type="range" min="2" max="3" step="0.5" data-orientation="vertical">
+            <p class="col-sm-3 col-lg-3">Sad</p>
+        </div>
+
+        <div class="mood-slider-div tired-wideawake">
+            <p class="col-sm-3 col-lg-3">Tired</p>
+            <input class="mood-slider-range col-sm-6 col-lg-6" name="tired-wideawake" type="range" min="4" max="5" step="0.5" data-orientation="vertical">
+            <p class="col-sm-3 col-lg-3">Wide Awake</p>
+        </div>
+
+        <div class="mood-slider-div scared-fearless">
+            <p class="col-sm-3 col-lg-3">Scared</p>
+            <input class="mood-slider-range col-sm-6 col-lg-6" name="scared-fearless" type="range" min="6" max="7" step="0.5" data-orientation="vertical">
+            <p class="col-sm-3 col-lg-3">Fearless</p>
+        </div>
+    </div><!--/.moon-slider-->
+    <br/>
+
+    <div class="suggested-movies row">
+        <div class="movie-holder col-sm-2 col-lg-3">
+            <img class="movie-image" id="movie0-image" src="images/static/nocontent-placeholder.png">
+            <p class="movie-title" id="movie0-text">No Content</p>
+        </div>
+        <div class="movie-holder col-sm-2 col-lg-3">
+            <img class="movie-image" id="movie1-image" src="images/static/nocontent-placeholder.png">
+            <p class="movie-title" id="movie1-text">No Content</p>
+        </div>
+        <div class="movie-holder col-sm-2 col-lg-3">
+            <img class="movie-image" id="movie2-image" src="images/static/nocontent-placeholder.png">
+            <p class="movie-title"  id="movie2-text">No Content</p>
+        </div>
+        <div class="movie-holder col-sm-2 col-lg-3">
+            <img class="movie-image" id="movie3-image" src="images/static/nocontent-placeholder.png">
+            <p class="movie-title"  id="movie3-text">No Content</p>
+        </div>
+        <div class="movie-holder col-sm-2 col-lg-3">
+            <img class="movie-image" id="movie4-image" src="images/static/nocontent-placeholder.png">
+            <p class="movie-title"  id="movie4-text">No Content</p>
+        </div>
+    </div><!--/.suggested-movies-->
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="scripts/jQuery/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- Custom scripts -->
+<script src="scripts/functions.js"></script>
+</body>
+</html>
+

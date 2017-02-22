@@ -1,0 +1,23 @@
+/*
+* Sky fonts
+*/
+@font-face {
+    font-family: SkyTextBold;
+    src: url(sky-text-bold.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: SkyTextMedium;
+    src: url(sky-text-medium.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: SkyTextRegular;
+    src: url(sky-text-regular.ttf);
+    font-weight: 400;
+    font-style: normal
+}

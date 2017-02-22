@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programmeList>
+    <programme id="1">
+        <name>Arthur</name>
+        <image>images/movies/arthur.jpg</image>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="2">
+        <name>Burlesque</name>
+        <image>images/movies/burlesque.jpg</image>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="3">
+        <name>Get Him to the Greek</name>
+        <image>images/movies/getHimtotheGreek.jpg</image>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="4">
+        <name>There's Something About Mary</name>
+        <image>images/movies/theresSomethingAboutMary.jpg</image>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="5">
+        <name>Wedding Crashers</name>
+        <image>images/movies/weddingCrashers.jpg</image>
+        <mood>Agitated</mood>
+    </programme>
+    <programme id="6">
+        <name>A One and A Two</name>
+        <image>images/movies/aOneandaTwo.jpg</image>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="7">
+        <name>A River Runs Through It</name>
+        <image>images/movies/aRiverRunsThroughIt.jpg</image>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="8">
+        <name>Keep the Lights On</name>
+        <image>images/movies/keeptheLightsOn.jpg</image>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="9">
+        <name>Once</name>
+        <image>images/movies/once.jpg</image>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="10">
+        <name>The Big Blue</name>
+        <image>images/movies/theBigBlue.jpg</image>
+        <mood>Calm</mood>
+    </programme>
+    <programme id="11">
+        <name>Begin Again</name>
+        <image>images/movies/beginAgain.jpg</image>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="12">
+        <name>Ratatouille</name>
+        <image>images/movies/ratatouille.jpg</image>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="13">
+        <name>The Holiday</name>
+        <image>images/movies/theHoliday.jpg</image>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="14">
+        <name>The Perks of Being a Wall flower</name>
+        <image>images/movies/thePerksofBeingaWallflower.jpg</image>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="15">
+        <name>Up</name>
+        <image>images/movies/up.jpg</image>
+        <mood>Happy</mood>
+    </programme>
+    <programme id="16">
+        <name>Horrible Bosses</name>
+        <image>images/movies/horribleBosses.jpg</image>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="17">
+        <name>Step Brothers</name>
+        <image>images/movies/stepBrothers.jpg</image>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="18">
+        <name>The Hangover</name>
+        <image>images/movies/theHangover.jpg</image>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="19">
+        <name>The Hot Chick</name>
+        <image>images/movies/theHotChick.jpg</image>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="20">
+        <name>White Chicks</name>
+        <image>images/movies/whiteChicks.jpg</image>
+        <mood>Sad</mood>
+    </programme>
+    <programme id="21">
+        <name>American Psycho</name>
+        <image>images/movies/americanPsycho.jpg</image>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="22">
+        <name>A Perfect Murder</name>
+        <image>images/movies/aPerfectMurder.jpg</image>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="23">
+        <name>BlackSwan</name>
+        <image>images/movies/blackSwan.jpg</image>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="24">
+        <name>FightClub</name>
+        <image>images/movies/fightClub.jpg</image>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="25">
+        <name>From Hell</name>
+        <image>images/movies/fromHell.jpg</image>
+        <mood>Tired</mood>
+    </programme>
+    <programme id="26">
+        <name>Birdman</name>
+        <image>images/movies/birdman.jpg</image>
+        <mood>WideAwake</mood>
+    </programme>
+    <programme id="27">
+        <name>The Imitation Game</name>
+        <image>images/movies/theImitationGame.jpg</image>
+        <mood>WideAwake</mood>
+    </programme>
+    <programme id="28">
+        <name>The King's Speech</name>
+        <image>images/movies/theKingsSpeech.jpg</image>
+        <mood>WideAwake</mood>
+    </programme>
+    <programme id="29">
+        <name>The Man Who Knew Infinity</name>
+        <image>images/movies/theManWhoKnewInfinity.jpg</image>
+        <mood>WideAwake</mood>
+    </programme>
+    <programme id="30">
+        <name>The Theory of Everything</name>
+        <image>images/movies/theTheoryofEverything.jpg</image>
+        <mood>WideAwake</mood>
+    </programme>
+    <programme id="31">
+        <name>Loin King</name>
+        <image>images/movies/loinKing.jpg</image>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="32">
+        <name>ToyStory</name>
+        <image>images/movies/toyStory.jpg</image>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="33">
+        <name>ToyStory 3</name>
+        <image>images/movies/toyStory3.jpg</image>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="34">
+        <name>Up</name>
+        <image>images/movies/up.jpg</image>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="35">
+        <name>Wall-E</name>
+        <image>images/movies/walle.jpg</image>
+        <mood>Scared</mood>
+    </programme>
+    <programme id="36">
+        <name>Dont Breathe</name>
+        <image>images/movies/dontBreathe.jpg</image>
+        <mood>Fearless</mood>
+    </programme>
+    <programme id="37">
+        <name>I Saw The Devil</name>
+        <image>images/movies/iSawTheDevil.jpg</image>
+        <mood>Fearless</mood>
+    </programme>
+    <programme id="38">
+        <name>Jug Face</name>
+        <image>images/movies/jugFace.jpg</image>
+        <mood>Fearless</mood>
+    </programme>
+    <programme id="39">
+        <name>The Conjuring 2</name>
+        <image>images/movies/theConjuring2.jpg</image>
+        <mood>Fearless</mood>
+    </programme>
+    <programme id="40">
+        <name>The Exorcism</name>
+        <image>images/movies/theExorcism.jpg</image>
+        <mood>Fearless</mood>
+    </programme>
+    <programme id="41">
+        <name>Evil Dead 2</name>
+        <image>images/movies/evildead2.jpg</image>
+        <mood>Sad+Fearless</mood>
+    </programme>
+    <programme id="42">
+        <name>Young Frankenstein</name>
+        <image>images/movies/youngFrankenstein.jpg</image>
+        <mood>Sad+Fearless</mood>
+    </programme>
+    <programme id="43">
+        <name>Cemetery Man</name>
+        <image>images/movies/cemeteryMan.jpg</image>
+        <mood>Sad+Fearless</mood>
+    </programme>
+    <programme id="44">
+        <name>Tucker and Dalevs Evil</name>
+        <image>images/movies/tuckerandDalevsEvil.jpg</image>
+        <mood>Sad+Fearless</mood>
+    </programme>
+    <programme id="45">
+        <name>Zombieland</name>
+        <image>images/movies/zombieland.jpg</image>
+        <mood>Sad+Fearless</mood>
+    </programme>
+    <programme id="46">
+        <name>Joy</name>
+        <image>images/movies/joy.jpg</image>
+        <mood>Agitated+Tired</mood>
+    </programme>
+    <programme id="47">
+        <name>Steve Jobs</name>
+        <image>images/movies/steveJobs.jpg</image>
+        <mood>Agitated+Tired</mood>
+    </programme>
+    <programme id="48">
+        <name>127 Hours</name>
+        <image>images/movies/127hours.jpg</image>
+        <mood>Agitated+Tired</mood>
+    </programme>
+    <programme id="49">
+        <name>The Wolf of Wall Street</name>
+        <image>images/movies/theWolfofWallStreet.jpg</image>
+        <mood>Agitated+Tired</mood>
+    </programme>
+    <programme id="50">
+        <name>Everest</name>
+        <image>images/movies/everest.jpg</image>
+        <mood>Agitated+Tired</mood>
+    </programme>
+</programmeList>
